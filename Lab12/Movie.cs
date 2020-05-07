@@ -34,7 +34,7 @@ namespace Lab12
                 i++;
             }
         }
-        public abstract void Play(); //child classes will fill in
+        public abstract void Play(); 
         
 
     }

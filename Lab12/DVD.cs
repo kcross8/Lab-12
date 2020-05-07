@@ -37,26 +37,7 @@ namespace Lab12
             }
         }
 
-        public void ListDVD()
-        {
-            List<string> romanceScenes = new List<string>();
-            romanceScenes.Add("Two people meet");
-            romanceScenes.Add("Three hearts break");
-            romanceScenes.Add("They were all in love");
-            DVD romantics = new DVD("Romantics", Genre.Romance, 140, romanceScenes);
 
-            List<string> actionScenes = new List<string>();
-            actionScenes.Add("the spaceship enters space");
-            actionScenes.Add("the planet vs the sun");
-            actionScenes.Add("the aliens discover humans");
-            DVD actions = new DVD("Space Stars", Genre.Action, 220, actionScenes);
-
-            List<string> funnyScenes = new List<string>();
-            funnyScenes.Add("Weird things happen");
-            funnyScenes.Add("People react strangely");
-            funnyScenes.Add("A crazy event occurs");
-            DVD funny = new DVD("Funny Weirdos", Genre.Comedy, 130, funnyScenes);
-        }
 
     }
 }

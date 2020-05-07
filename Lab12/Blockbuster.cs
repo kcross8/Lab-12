@@ -8,7 +8,7 @@ namespace Lab12
 {
     class Blockbuster
     {
-        //public List<Movie> Movies = ListMovies();
+        
         public static void CheckOut()
         {
             Console.WriteLine("Welcome to GC Blockbuster");
@@ -30,8 +30,7 @@ namespace Lab12
                         movie.Play();
                     }
                 }
-            }
-               
+            }               
         }
      
         public static void PrintMovies()
